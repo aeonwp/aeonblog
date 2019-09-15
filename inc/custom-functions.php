@@ -170,7 +170,7 @@ if ( ! function_exists( 'aeonblog_related_post' ) ) {
 	 * @return void
 	 */
 	function aeonblog_related_post( $post_id ) {
-		if ( 0 === get_theme_mod( 'aeonblog-related-post', 1 ) ) {
+		if ( 0 == get_theme_mod( 'aeonblog-related-post', 1 ) ) {
 			return;
 		}
 
