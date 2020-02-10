@@ -213,8 +213,8 @@ if ( ! function_exists( 'aeonblog_fonts_url' ) ) {
 		$fonts_url = '';
 
 		$font_families   = array();
-		$font_families[] = get_theme_mod( 'aeonblog_body_font', 'Open Sans' );
-		$font_families[] = get_theme_mod( 'aeonblog_title_font', 'Josefin Sans' );
+		$font_families[] = get_theme_mod( 'aeonblog_body_font', 'Open Sans' ) . ':400,700';
+		$font_families[] = get_theme_mod( 'aeonblog_title_font', 'Josefin Sans' ) . ':400,700';
 
 		$font_families = array_unique( $font_families );
 
@@ -305,6 +305,7 @@ require get_template_directory() . '/inc/template-functions.php';
 require get_template_directory() . '/inc/customizer.php';
 require get_template_directory() . '/inc/customizer-fonts.php';
 require get_template_directory() . '/inc/sanitize-functions.php';
+require get_template_directory() . '/inc/class-customize.php';
 
 /**
  * Custom Function Templates
@@ -332,5 +333,5 @@ if ( ! function_exists( 'aeonblog_breadcrumb_trail' ) ) {
 
 /**
  * Load dynamic css file
- */
+*/
 require get_template_directory() . '/inc/functions/dynamic-css.php';
