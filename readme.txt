@@ -54,6 +54,7 @@ You can use email us at support@aeonwp.com
 
 = 1.1.3 - April 14 2020 =
 Fixed Google Search Concole Issues on Breadcrumb
+Added minified version of the JavaScript files.
 Tested with latest WP version
 
 = 1.1.2 - January 28 2020 =
