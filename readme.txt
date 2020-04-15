@@ -1,7 +1,7 @@
 === Aeon Blog ===
 Contributors: aeontheme
 Requires at least: 5.0
-Tested up to: 5.2.3
+Tested up to: 5.4
 Requires PHP: 5.6
 Stable tag: 1.1.2
 License:      GNU General Public License v2 or later
@@ -52,7 +52,11 @@ You can use email us at support@aeonwp.com
 
 == Changelog ==
 
-= 1.1.2 - Janruary 28 2020 =
+= 1.1.3 - April 14 2020 =
+Fixed Google Search Concole Issues on Breadcrumb
+Tested with latest WP version
+
+= 1.1.2 - January 28 2020 =
 Fixed typos.
 Fixed a problem with loading font weights.
 Minor CSS improvements for the gallery block, gallery captions and search widget block.
@@ -130,7 +134,7 @@ Removed hard coded date.
 * Initial release
 
 == Theme License ==
-AeonBlog WordPress Theme, Copyright 2019 Aeon Theme
+AeonBlog WordPress Theme, Copyright 2020 Aeon Theme
 AeonBlog is distributed under the terms of the GNU General Public License v2 or later.
 
 == Credits ==
