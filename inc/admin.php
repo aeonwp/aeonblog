@@ -13,7 +13,7 @@
  * Add the menu item under Appearance, themes.
  */
 function aeonblog_menu() {
-	add_theme_page( __( 'AeonBlog', 'aeonblog' ), __( 'AeonBlog', 'aeonblog' ), 'edit_theme_options', 'aeonblog-theme', 'aeonblog_page' );
+	add_theme_page( __( 'About AeonBlog', 'aeonblog' ), __( 'About AeonBlog', 'aeonblog' ), 'edit_theme_options', 'aeonblog-theme', 'aeonblog_page' );
 }
 add_action( 'admin_menu', 'aeonblog_menu' );
 
