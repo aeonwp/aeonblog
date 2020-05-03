@@ -86,7 +86,7 @@ class AeonBlog_Theme_Notice {
 	 */
 	public function enqueue_scripts() {
 
-		wp_enqueue_style( 'aeonblog-notice', get_template_directory_uri() . '/css/pro-notice/notice.css', array(), '4.5.0' );
+		wp_enqueue_style( 'aeonblog-notice', get_template_directory_uri() . '/css/upgrade-pro.css', array(), '4.5.0' );
 	}
 
 	/**
@@ -111,7 +111,7 @@ class AeonBlog_Theme_Notice {
 		 * 2. If the user has ignored the message partially for 2 days.
 		 * 3. Dismiss always if clicked on 'Dismiss' button.
 		 */
-		if ( ( $theme_notice_start_time > strtotime( '-2 minutes' ) ) || ( $ignore_notice_partially > strtotime( '-3 minutes' ) ) || ( $ignore_notice_permanent ) ) {
+		if ( ( $theme_notice_start_time > strtotime( '-5 days' ) ) || ( $ignore_notice_partially > strtotime( '-2 days' ) ) || ( $ignore_notice_permanent ) ) {
 			return;
 		}
 		?>
