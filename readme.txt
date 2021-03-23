@@ -1,7 +1,7 @@
 === Aeon Blog ===
 Contributors: aeontheme
 Requires at least: 5.0
-Tested up to: 5.4.1
+Tested up to: 5.7
 Requires PHP: 5.6
 Stable tag: 1.1.2
 License:      GNU General Public License v2 or later
@@ -24,7 +24,7 @@ AeonBlog includes support for Infinite Scroll in Jetpack.
 
 = How can I request help with the theme? =
 
-You can use email us at support@aeonwp.com.
+You can use email us at aeonwpofficial@gmail.com.
 
 = How do I change the width of the site? =
 
@@ -48,9 +48,14 @@ And include the following to also increase the width of the main content.
 = Can you add more features? =
 
 We would love to hear your ideas.
-You can use email us at support@aeonwp.com
+You can use email us at aeonwpofficial@gmail.com
 
 == Changelog ==
+= 1.1.6 - March 23 2021 =
+Tested with latest WP version
+Fixed minor CSS issues
+Changed upgrade to pro link
+
 = 1.1.4 - May 03 2020 =
 Added Upgrade notice 
 Tested with latest WP version
@@ -138,7 +143,7 @@ Removed hard coded date.
 * Initial release
 
 == Theme License ==
-AeonBlog WordPress Theme, Copyright 2020 Aeon Theme
+AeonBlog WordPress Theme, Copyright 2021 Aeon Theme
 AeonBlog is distributed under the terms of the GNU General Public License v2 or later.
 
 == Credits ==

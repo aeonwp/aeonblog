@@ -52,7 +52,7 @@ function aeonblog_page() {
 				<?php _e( 'You need to have an active sidebar, and enable the option in the customzer.', 'aeonblog' ); ?><br>
 				<?php _e( 'To show your biography, you need to add the content in your WordPress user profile.', 'aeonblog' ); ?><br>
 				<h3><?php esc_html_e( 'Can you add more features?', 'aeonblog' ); ?></h3>
-				<?php esc_html_e( 'The Plus version of the theme has additional features.', 'aeonblog' ); ?> <?php _e( 'You can learn more about the premium version of the theme here: <a href="https://www.templatesell.com/item/aeonblog-plus/">Aeonblog Plus</a>.', 'aeonblog' ); ?><br>
+				<?php esc_html_e( 'The Plus version of the theme has additional features.', 'aeonblog' ); ?> <?php _e( 'You can learn more about the premium version of the theme here: <a href="https://aeonwp.com/aeonblog-plus/">Aeonblog Plus</a>.', 'aeonblog' ); ?><br>
 				<?php _e( 'We also offer a <a href="https://aeonwp.com/services/">customization service</a>. ', 'aeonblog' ); ?><br>
 				<h3><?php esc_html_e( 'Where can I download demo content?', 'aeonblog' ); ?></h3>
 				<?php _e( 'You can download the demo content on our <a href="https://aeonwp.com/aeonblog/#demo">website</a>.', 'aeonblog' ); ?>
@@ -65,7 +65,7 @@ function aeonblog_page() {
 				<h2><?php esc_html_e( 'Have you built something awesome with AeonBlog?', 'aeonblog' ); ?></h2>
 				<br>
 				<?php esc_html_e( 'We would love to see what you have created!', 'aeonblog' ); ?>
-				<?php esc_html_e( 'If you would like your website to be featured on our blog, please email us at feature@aeonwp.com', 'aeonblog' ); ?>
+				<?php esc_html_e( 'If you would like your website to be featured on our blog, please email us at aeonwpofficial@gmail.com', 'aeonblog' ); ?>
 				<br>
 				<br>
 			</div>
@@ -80,7 +80,7 @@ function aeonblog_page() {
 		<div class="welcome-panel">
 			<div class="welcome-panel-content">
 				<h2><?php esc_html_e( 'More themes', 'aeonblog' ); ?></h2><br>
-				<a href="https://www.templatesell.com/item/aeonaccess-plus/"><?php esc_html_e( 'AeonAccess is available in a premium and free version.', 'aeonblog' ); ?></a><br><br>
+				<a href="https://aeonwp.com/aeonaccess-plus/"><?php esc_html_e( 'AeonAccess is available in a premium and free version.', 'aeonblog' ); ?></a><br><br>
 				<img src="<?php echo esc_url( get_template_directory_uri() . '/images/access.jpg' ); ?>" alt="" height="300px">
 				<br><br>
 			</div>

@@ -74,7 +74,7 @@ final class AeonBlog_Customize {
 				'aeonblog_plus',
 				array(
 					'pro_text2' => esc_html__( 'Unlock more features with Plus', 'aeonblog' ),
-					'pro_url2'  => 'https://www.templatesell.com/item/aeonblog-plus/',
+					'pro_url2'  => 'https://aeonwp.com/aeonblog-plus/',
 					'pro_text'  => esc_html__( 'Rate this theme', 'aeonblog' ),
 					'pro_url'   => 'https://wordpress.org/support/theme/aeonblog/reviews/#new-post',
 					'priority' => '1',
